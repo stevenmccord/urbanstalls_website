@@ -1,8 +1,6 @@
-# Beach 2015 Website
+# Urbanstalls Website
 
-This repository is a Wordpress site that is for the annual Beach Week vacation.  The following directions reference how to pull the code and run the site locally.  There is a VagrantFile included in this repository that will allow you to clone this repository and create a local development environment.
-
-[ ![Codeship Status for naturalblow/beach2015](https://codeship.io/projects/9705ac20-2163-0132-4764-6ae5c5c376fc/status)](https://codeship.io/projects/36221)
+This repository is a Wordpress site that is for the Urbanstalls website.  The following directions reference how to pull the code and run the site locally.  There is a VagrantFile included in this repository that will allow you to clone this repository and create a local development environment.
 
 ## Prerequisites
 
@@ -37,14 +35,14 @@ The procedure for starting up a working WordPress is as follows:
 
 To log in to the local Wordpress installation:
 
-`http://localhost:8080/wp-admin/` the username is `admin`, the password is `naturalblow`.
+`http://localhost:8080/wp-admin/` the username is `admin`, the password is `smurfmurph`.
 
 You can access mySQL with the following settings:
 
 + Host: `127.0.0.1`
 + Username: `wordpress`
-+ Password: `naturalblow`
-+ Database: `beach2015`
++ Password: `smurfmurph`
++ Database: `urban`
 + Port: `3306`
 
 ## Getting Help
