@@ -31,7 +31,7 @@ class wordpress::install {
 
   # Perform mySQL dump of the latest beach remote DB
   exec { 'mysql-dump':
-    command => '/usr/bin/mysqldump -u wordpress -psmurfmurph -h us-cdbr-iron-east-02.cleardb.net urban > urban.sql',
+    command => '/usr/bin/mysqldump -u b25646bfd625db -p9994db5d -h us-cdbr-iron-east-02.cleardb.net heroku_c93eb6e13dfc629 > urban.sql',
     timeout => 3600,
   }
   #import mySQL DB from the dump from the previous step
