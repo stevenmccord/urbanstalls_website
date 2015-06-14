@@ -1,7 +1,8 @@
 <?php
 $host = $_SERVER["HTTP_HOST"];
+$domain = "herokuapp";
 //remote variables
-if (strpos($host, "herokuapp") === TRUE){
+if (strpos($host, $domain)){
 	define('DB_NAME', 'heroku_c93eb6e13dfc629');
 	/** MySQL database username */
 	define('DB_USER', 'b25646bfd625db');
