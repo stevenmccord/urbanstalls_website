@@ -1,7 +1,7 @@
 <?php
 $host = $_SERVER["HTTP_HOST"];
 //remote variables
-if ($host == "urbanstalls.herokuapp.com"){
+if (strpos($host, "herokuapp") === TRUE){
 	define('DB_NAME', 'heroku_c93eb6e13dfc629');
 	/** MySQL database username */
 	define('DB_USER', 'b25646bfd625db');
@@ -15,7 +15,7 @@ if ($host == "urbanstalls.herokuapp.com"){
 	define('DB_COLLATE', '');
 //local variables
 }else{
-	define('DB_NAME', 'urbanstalls');
+	define('DB_NAME', 'urban');
 	/** MySQL database username */
 	define('DB_USER', 'wordpress');
 	/** MySQL database password */
