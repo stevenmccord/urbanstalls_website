@@ -1,0 +1,8 @@
+{
+  "name": "urbanstalls_website",
+  "scripts": {},
+  "env": {},
+  "addons": [
+    "cleardb"
+  ]
+}
