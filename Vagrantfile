@@ -4,10 +4,10 @@
 Vagrant.configure("2") do |config|
 
   config.vm.provider "virtualbox" do |v|
-    v.name = "urbanstalls"
+    v.name = "urban"
   end
 
-  config.vm.box = "urbanstalls"
+  config.vm.box = "urban"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box"
   
   #configure webport to go to 8080
